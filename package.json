@@ -1,0 +1,51 @@
+{
+  "name": "wingchain-cli",
+  "version": "0.1.0",
+  "author": "developer <developer@wingchain.cn>",
+  "license": "Apache-2.0",
+  "bin": {
+    "wingchain-cli": "./bin/run"
+  },
+  "bugs": "https://github.com/guoxbin/wingchain-cli/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^3",
+    "node-repl-await": "^0.1.1",
+    "tslib": "^1",
+    "wingchain-sdk": "https://github.com/wingchain/wingchain-sdk-js"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1",
+    "@types/node": "^10",
+    "eslint": "^5.13",
+    "eslint-config-oclif": "^3.1",
+    "eslint-config-oclif-typescript": "^0.1",
+    "ts-node": "^8",
+    "typescript": "^3.3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "homepage": "https://github.com/wingchain/wingchain-cli",
+  "keywords": [
+    "oclif"
+  ],
+  "main": "lib/index.js",
+  "oclif": {
+    "commands": "./lib/commands",
+    "bin": "wingchain-cli"
+  },
+  "repository": "https://github.com/wingchain/wingchain-cli",
+  "scripts": {
+    "posttest": "eslint . --ext .ts --config .eslintrc",
+    "prepack": "rm -rf lib && tsc -b && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  },
+  "types": "lib/index.d.ts"
+}
