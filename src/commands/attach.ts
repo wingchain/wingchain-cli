@@ -12,6 +12,7 @@ class Attach extends Command {
   static args = []
 
   async run() {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const {args, flags} = this.parse(Attach)
 
     const endpoint = flags.endpoint || 'http://localhost:3109'

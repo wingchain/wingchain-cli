@@ -28,21 +28,19 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`wingchain-cli attach [FILE]`](#wingchain-cli-attach-file)
+* [`wingchain-cli attach`](#wingchain-cli-attach)
 
-## `wingchain-cli attach [FILE]`
+## `wingchain-cli attach`
 
-Wingchain CLI
+Attach to a node
 
 ```
 USAGE
-  $ wingchain-cli attach [FILE]
+  $ wingchain-cli attach
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-  -v, --version    show CLI version
+  -e, --endpoint=endpoint  Node endpoint to attach
+  -h, --help               show CLI help
 ```
 
 _See code: [src/commands/attach.ts](https://github.com/wingchain/wingchain-cli/blob/v0.1.0/src/commands/attach.ts)_
