@@ -336,7 +336,7 @@ astral-regex@^1.0.0:
 
 axios@^0.21.1:
   version "0.21.1"
-  resolved "https://registry.npm.taobao.org/axios/download/axios-0.21.1.tgz?cache=0&sync_timestamp=1608611475093&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faxios%2Fdownload%2Faxios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  resolved "https://registry.npm.taobao.org/axios/download/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
   integrity sha1-IlY0gZYvTWvemnbVFu8OXTwJsrg=
   dependencies:
     follow-redirects "^1.10.0"
@@ -936,7 +936,7 @@ flatted@^2.0.0:
 
 follow-redirects@^1.10.0:
   version "1.13.1"
-  resolved "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
+  resolved "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.13.1.tgz?cache=0&sync_timestamp=1607916846877&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ffollow-redirects%2Fdownload%2Ffollow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
   integrity sha1-X2m4Ezds7k/QR0o6uoNd8Eq3Y7c=
 
 fs-constants@^1.0.0:
@@ -2134,7 +2134,7 @@ widest-line@^3.1.0:
 
 "wingchain-sdk@https://github.com/wingchain/wingchain-sdk-js":
   version "0.1.0"
-  resolved "https://github.com/wingchain/wingchain-sdk-js#0a63e77f4bf5a11c10bfcac9a25e0d3bc2f14b2f"
+  resolved "https://github.com/wingchain/wingchain-sdk-js#1215b4ced03852ba3b3641d439f8d422e7c5e4dd"
   dependencies:
     axios "^0.21.1"
 
