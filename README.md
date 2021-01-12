@@ -19,7 +19,7 @@ $ npm install -g wingchain-cli
 $ wingchain-cli COMMAND
 running command...
 $ wingchain-cli (-v|--version|version)
-wingchain-cli/0.1.0-rc.1 darwin-x64 node-v11.15.0
+wingchain-cli/0.1.0-rc.2 darwin-x64 node-v11.15.0
 $ wingchain-cli --help [COMMAND]
 USAGE
   $ wingchain-cli COMMAND
@@ -43,5 +43,5 @@ OPTIONS
   -h, --help               show CLI help
 ```
 
-_See code: [src/commands/attach.ts](https://github.com/wingchain/wingchain-cli/blob/v0.1.0-rc.1/src/commands/attach.ts)_
+_See code: [src/commands/attach.ts](https://github.com/wingchain/wingchain-cli/blob/v0.1.0-rc.2/src/commands/attach.ts)_
 <!-- commandsstop -->
