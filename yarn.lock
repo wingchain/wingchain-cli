@@ -2134,7 +2134,7 @@ widest-line@^3.1.0:
 
 "wingchain-sdk@https://github.com/wingchain/wingchain-sdk-js":
   version "0.1.0"
-  resolved "https://github.com/wingchain/wingchain-sdk-js#554130cb63e31fc730bc813bec4bba275be4f503"
+  resolved "https://github.com/wingchain/wingchain-sdk-js#d0a35d2424cc6069611fc9f4d52c995d0fc577d1"
   dependencies:
     axios "^0.21.1"
 
