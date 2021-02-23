@@ -1,6 +1,6 @@
 {
   "name": "wingchain-cli",
-  "version": "0.1.0-rc.4",
+  "version": "0.1.0-rc.5",
   "author": "developer <developer@wingchain.cn>",
   "license": "Apache-2.0",
   "bin": {
