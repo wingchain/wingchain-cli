@@ -935,9 +935,9 @@ flatted@^2.0.0:
   integrity sha1-RXWyHivO50NKqb5mL0t7X5wrUTg=
 
 follow-redirects@^1.10.0:
-  version "1.13.2"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.2.tgz#dd73c8effc12728ba5cf4259d760ea5fb83e3147"
-  integrity sha512-6mPTgLxYm3r6Bkkg0vNM0HTjfGrOEtsfbhagQvbxDEsEkpNhw582upBaoRZylzen6krEmxXJgt9Ju6HiI4O7BA==
+  version "1.13.3"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.3.tgz#e5598ad50174c1bc4e872301e82ac2cd97f90267"
+  integrity sha512-DUgl6+HDzB0iEptNQEXLx/KhTmDb8tZUHSeLqpnjpknR70H0nC2t9N73BK6fN4hOvJ84pKlIQVQ4k5FFlBedKA==
 
 fs-constants@^1.0.0:
   version "1.0.0"
@@ -2134,7 +2134,7 @@ widest-line@^3.1.0:
 
 "wingchain-sdk@https://github.com/wingchain/wingchain-sdk-js":
   version "0.1.0"
-  resolved "https://github.com/wingchain/wingchain-sdk-js#12f852ba57c586c99b3dd621717a4c5d0b9b7428"
+  resolved "https://github.com/wingchain/wingchain-sdk-js#8a5779600687dcfa04ba0fa558b76333a94c2d4d"
   dependencies:
     axios "^0.21.1"
 
